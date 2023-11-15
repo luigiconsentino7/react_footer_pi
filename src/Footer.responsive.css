@@ -1,0 +1,85 @@
+@media screen and (min-width: 200px) and (max-width: 767px) {
+.myFooter{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    height: auto;
+  }
+
+.containerFooter{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    height: auto;
+  }
+
+.containerFooter section{
+    margin-left: 30px;
+  }
+
+.sectionContainerInferior{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+
+.sectionContainerInferior a{
+    color: #fff;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+hr{
+    width: 100%;
+  }
+
+.icon a{
+    margin-right: 20px;
+    font-size: 25px;
+  }
+
+  .sectionLinks h1:hover{
+    color: #efd620;
+}
+
+.sectionSobre h1:hover{
+    color: #efd620;
+}
+}
+
+@media screen and (min-width: 768px) {
+.containerFooter{
+    padding-bottom: 50px;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+.containerFooter section{
+    margin-left: 60px;
+  }
+     
+.sectionContainerInferior{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+.sectionContainerInferior a{
+    text-decoration: none;
+    margin-right: 15px;
+    margin-bottom: 50px;
+  }
+
+hr{ 
+    width: 85%;
+  }
+}
